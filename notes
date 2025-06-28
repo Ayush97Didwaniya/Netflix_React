@@ -1,0 +1,15 @@
+Command to create react app:
+---------------------------
+npx create-react-app netflix
+
+
+Benifit:
+---------
+create project app gives you project scafold.
+It uses webpack as an bundlers.
+also it provides, react testing library support scafold.
+
+
+Other:
+-------
+vite is also an bundler can be used.
