@@ -1,15 +1,39 @@
-Command to create react app:
----------------------------
+## Command to create react app:
+
 npx create-react-app netflix
 
+## Benifit:
 
-Benifit:
----------
 create project app gives you project scafold.
 It uses webpack as an bundlers.
 also it provides, react testing library support scafold.
 
+## Other:
 
-Other:
--------
+use webpack as bundler, earlier we have used parcel.
 vite is also an bundler can be used.
+
+ES7+ React/Redux/React-Native extension needed to use rafce command
+
+- react arrow function component export
+
+TO host your site with firebase Hosting, you need the firebase CLI
+npm install -g firebase-tools
+
+// redux store setup
+npm i -D @react/toolkit
+npm i react-redux
+
+// Forms
+Use formic library for long forms in react
+
+// Firebase Setup
+npm install firebase
+create new project to websupport
+copy configuration from firebase to project
+firebase login
+firebase init
+enable authentication in firebase
+
+ten@gmail.com
+Ten@12345

@@ -1,11 +1,14 @@
-import './App.css';
+import "./App.css"
+import Body from "./components/Body"
+import appStore from "./utils/appstore"
+import { Provider } from "react-redux"
 
 function App() {
-  return (
-    <div className="App">
-        Hello Everyone, Lets build netflix Gpt
-    </div>
-  );
+	return (
+		<Provider store={appStore}>
+			<Body />
+		</Provider>
+	)
 }
 
-export default App;
+export default App
