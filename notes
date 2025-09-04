@@ -37,3 +37,7 @@ enable authentication in firebase
 
 ten@gmail.com
 Ten@12345
+
+$Yush110 - tmdb pass
+
+- You may face, most fn or api been called twice in development mode, because of React.strictMode - Its a react feature to check inconsistency between the codes.
