@@ -2,11 +2,12 @@ import Headers from "./Header";
 import useNowPlayingMovies from "../hooks/useNowPlayingMovies.js";
 import MainContainer from "./MainContainer.js";
 import SecondaryContainer from "./SecondaryContainer.js";
+import usePopularMovies from "../hooks/usePopularMovies.js";
 
 const Browse = () => {
 	// Fetch Data from TMDB API and update store
-	console.log(useNowPlayingMovies);
 	useNowPlayingMovies();
+	usePopularMovies();
 
 	return (
 		<div>
