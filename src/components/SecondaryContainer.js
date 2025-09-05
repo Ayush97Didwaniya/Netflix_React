@@ -19,7 +19,7 @@ const SecondaryContainer = () => {
 					- Movie Card * n
 				Movie List - Now Playing
 				Movie List - Trending
-				Movie List - Horrow
+				Movie List - Horror
 			 */}
 				</div>
 			</div>
