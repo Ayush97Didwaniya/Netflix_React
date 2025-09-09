@@ -36,11 +36,17 @@
 - GPT Search page
 - GPT Search Bar
 - Multi-language Feature in our App
-- Key has been set in .env file for security
-- Gpt suggestion feature
-- memoization to prevent multiple API calls when the data is already available in redux store
+- Gpt Search Open AI api key
+- Gpt Search API Call
+- Fetched gptMoviesSuggestions from TMDB
+- Created gptSlice added data
+- Reused Movie List component to make movie suggestion container
+- memoization
+- Added .env file
+- Adding .env file to gitignore
+- Made our Site responsive
 
-# Freature
+# Feature
 
 - Login/ Sign Up
   - Sign In/Sign up form

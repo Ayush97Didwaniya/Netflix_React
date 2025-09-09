@@ -34,6 +34,8 @@ const GptSearchBar = () => {
 			console.log(err);
 		}
 		if (!gptResults.choices) {
+			console.log("error has occured");
+			return;
 			// TODO: Write error handling
 		}
 		console.log("gpt result", gptResults.choices?.[0]?.message?.content);
@@ -50,9 +52,9 @@ const GptSearchBar = () => {
 	};
 
 	return (
-		<div className="pt-[10%] flex justify-center">
+		<div className="pt-[45%] md:pt-[10%] flex justify-center">
 			<form
-				className="w-1/2 bg-black grid grid-cols-12"
+				className="w-full md:w-1/2 bg-black grid grid-cols-12"
 				onSubmit={(e) => e.preventDefault()}
 			>
 				<input
@@ -62,7 +64,7 @@ const GptSearchBar = () => {
 					placeholder={lang[langKey].gptSearchPlaceholder}
 				/>
 				<button
-					className="py-2 m-4 px-4 bg-red-500 text-white rounded-lg col-span-3"
+					className="py-2 m-4 px-0 md:px-4 bg-red-500 text-white rounded-lg col-span-3"
 					onClick={handleGptSearchClick}
 				>
 					{lang[langKey].search}
