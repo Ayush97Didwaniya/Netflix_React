@@ -1,0 +1,2 @@
+const gptKey =
+	"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";

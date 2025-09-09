@@ -36,6 +36,9 @@
 - GPT Search page
 - GPT Search Bar
 - Multi-language Feature in our App
+- Key has been set in .env file for security
+- Gpt suggestion feature
+- memoization to prevent multiple API calls when the data is already available in redux store
 
 # Freature
 
